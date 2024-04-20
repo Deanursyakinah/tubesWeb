@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adopters>
+    <adopter>
+        <image>img/team-1.jpg</image> 
+        <nameAdopter>adopter 1</nameAdopter>
+        <namePet>CAT</namePet>
+    </adopter>
+    <adopter>
+        <image>img/team-2.jpg</image> 
+        <nameAdopter>adopter 2</nameAdopter>
+        <namePet>DOG</namePet>
+    </adopter>
+    <adopter>
+        <image>img/team-3.jpg</image> 
+        <nameAdopter>adopter 3</nameAdopter>
+        <namePet>DOG</namePet>
+    </adopter>
+    <adopter>
+        <image>img/team-4.jpg</image> 
+        <nameAdopter>adopter 4</nameAdopter>
+        <namePet>DOG</namePet>
+    </adopter>
+    <adopter>
+        <image>img/team-5.jpg</image> 
+        <nameAdopter>adopter 5</nameAdopter>
+        <namePet>DOG</namePet>
+    </adopter>
+</adopters>

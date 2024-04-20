@@ -1,0 +1,124 @@
+-- Kelompok 3 : Movie Mingle --
+Anggota : 
+1122029-Dea Nursyakinah
+1122039-Grace Valentine
+1123027-Phabaseta ElangFajri 
+
+=================================================================================================
+
+Data dummy untuk login sebagai user :
+username : dea
+password : 123
+
+username : grace
+password : 123
+
+username : devid
+password : 123
+
+username : jonathan
+password : 123
+
+=================================================================================================
+
+Target Pengguna: 
+- user: pengguna
+- guest: user yang belum melakukan sign up ataupun login
+- member: user yang telah melakukan sign up maupun login
+
+=================================================================================================
+
+Fitur yang tersedia & ditambahkan : 
+1. Registrasi dan Home (1122029-Dea Nursyakinah)
+- Guest = menampilkan Home, Article, Info pet
+- Member = menampilkan semua page
+- Jika user sudah login, pada bagian pojok kiri atas web dan akan menampilkan profile picture dan username.
+- Jika user tidak ingin menggunakan profile picture web akan tetap menampilkan default picture.
+-> Fitur tambahan : Validasi password
+-> Fitur tambahan : Username tidak boleh sama
+
+2. Article (1122039-Grace Valentine)
+- Untuk melihat artikelnya sendiri dapat diakses oleh guest dan member
+- Fitur yang tersedia:
+-> Untuk guest, mereka hanya dapat membaca artikelnya saja, tidak dapat mengedit, menghapus, maupun membuat artikel baru.
+-> Untuk member, mereka dapat membaca, membuat artikel baru, mengedit, serta menghapus artikel yang telah mereka posting.
+-> Fitur Find, user dapat mencari artikel melalui topik maupun judul dari artikel yang diinput user
+-> Fitur Read More, user dapat melihat secara menyeluruh artikel yang diposting.
+   - Untuk fitur ini, terdapat button "Edit" dan "Delete" yang hanya bisa dilakukan oleh user yang meng-upload artikel tersebut.
+   -> Fitur Edit, member yang meng-upload artikel bisa mengedit topik, judul, isi artikel, dan gambar dari artikel
+   -> Fitur Delete, member yang meng-upload artikel dapat menghapus artikel yang telah diposting. Sebelumnya akan ditampilkan confirm apakah benar member akan menghapus artikelnya.
+-> Fitur New Post, hanya Member yang dapat melakukannya. Disini Member dapat memasukkan artikelnya dengan memilih topik, memasukkan judul artikel, memasukkan teks artikel, dan juga gambar artikel
+
+3. Info pet (1122039-Grace Valentine)
+- Dapat diakses oleh guest maupun member
+- Berisi tentang seputar info hewan peliharaan yang diadopt secara universal
+- Untuk datanya sendiri dimasukkan dalam file .xml, lalu di-get menggunakan AJAX dalam file .html 
+- Fitur yang tersedia
+-> Pada tampilan webpage, user dapat mengarahkan kursornya pada gambar yang tertera dan mengklik tulisan "Read More". Ketika diklik, user dapat melihat info pet yang tertera di bawah pilihan gambar" pet.
+-> Menggunakan AJAX untuk mengambil dan menampilkan data yang ada dalam XML
+
+4. Discussion (1122045- Devid Laritsan Manurung)
+- Sekarang hanya dapat diakses oleh member, jadi perlu login terdahulu
+- Bisa add discussion, dan akan ditampilkan dibagian "Discussion Room"
+- Jika member yang mengupload maka dia bisa edit maupun delete, namun jika member lain hanya bisa Join Room untuk komen
+- Bagian delete, untuk menghapus discussion yang member tersebut upload
+- Bagian edit, adalah untuk mengedit judul dan deskripsi diskusi
+- Bagian Join Room, untuk sesama member bisa menambahkan comment
+- Menambah fitur tampilan foto profil, agar memudahkan pengguna lainnya 
+- Tampilan lebih dirapihkan lagi
+- Fitur auto convert bagian daftar list Discussion Room ke file discuss.xml
+
+
+5. Adopt (1122003-Jonathan Marvel Sena)
+- Page hanya bisa dibuka jika user sudah login, jika belum login akan langsung redirect ke page login
+- Menampilkan 2 table, satu berisi pet adopsi yang dipost oleh user, dan satu lagi yang dipost oleh user lain
+- User dapat menghapus pet yang dipost sendiri
+- Menambahkan column status untuk menunjukkan status adopsi
+- Menambah file php dan function baru untuk mengubah status pet(deny atau adopt) menggunakan AJAX
+- Fitur baru
+-> Jika icon cart di klik oleh user maka status akan berubah menjadi "In negotiations"
+-> Jika status "In negotiations" maka owner asli pet tersebut dapat meng-accept atau deny request untuk mengadopsi pet tersebut, jika di accept maka pet akan di delete, jika di deny maka status akan kembali menjadi "Available"
+
+=================================================================================================
+
+XML : 
+Di index - adopt.xml -> menampilkan adopter 
+Di index - infoMov.xml -> menampilkan pet dan jenis-jenisnya lebih lengkap nya di page info pet
+Di Discussion - discuss.xml -> convertan otomatis pada bagian list Discussion room
+
+=================================================================================================
+
+Ajax : 
+- Info Pet: Menggunakan AJAX untuk mengambil dan menampilkan data yang ada dalam XML
+- Adppt: Menggunakan AJAX untuk mengedit data dalam table SQL
+
+=================================================================================================
+
+File Stream :
+- bagian Profil, upload file gambar ke imgSignUp
+- bagian Adopt, upload file gambar pet ke table adopt
+- bagian Article, isi artikel disimpan dalam folder fileArticle yang ada folder postArticle
+- bagian Article, gambar artikel disimpan dalam folder imgArticle yang ada folder postArticle
+- bagian Info Pet, gambar pet disimpan dalam folder imgPets
+
+=================================================================================================
+
+Session Cookies :
+Seluruh page pada web kami memakai Session Cookies
+
+=================================================================================================
+
+Pembagian Tugas (Update) :
+1. 1122003-Jonathan Marvel Sena
+    - Membuat table adopt
+    - Membuat semua page Adopt (adopt.php, addadopt.php, deleteMov.php, confirmAdoption.php, denyAdoption.php)
+2. 1122029-Dea Nursyakinah
+    - Home
+    - Sign in dan Sign up(signin2.php, signup2.php, adopt.xml)
+    - Menaruh session destroy di semua page agar member tidak repot-repot mau log out harus ke home dulu
+3. 1122030-Grace Valentine
+    - Article (blog.php, viewArticle.php, newArticle.php, editArticle.php, deleteArticle.php)
+    - Info pet (infoMov.php, infoMov.xml)
+4. 1122045-Devid Laritsan Manurung
+    - Membuat table bagian discuss dan comment
+    - Mengurus semua page discuss dan comment (discuss.php, discuss.xml, editdiscuss.php, deletediscuss.php, repplycomment.php)

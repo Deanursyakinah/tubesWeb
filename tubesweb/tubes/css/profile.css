@@ -1,0 +1,17 @@
+.profile-pic {
+    width: 70px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+  
+  .username {
+    font-size: 25px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  

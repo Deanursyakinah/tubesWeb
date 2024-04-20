@@ -1,0 +1,211 @@
+<?xml
+    version="1.0" encoding="UTF-8"
+?>
+
+<pets>
+    <!-- cat -->
+    <pet>
+        <image>imgPets/turkish-anggora.jpeg</image>
+        <name>Cat</name>
+        <type>Turkish Anggora</type>
+        <weight>2,7-4,5 kg</weight> 
+        <height>25-30 cm</height>
+        <foods>Makanan kucing berkualitas tinggi yang mengandung protein dan nutrisi lainnya yang diperlukan tubuh kucing.Makanan yang baik untuk Turkish Anggora ini adalah makanan yang kaya protein dan rendah karbohidrat, seperti makanan kucing yang terbuat dari daging segar atau makanan kucing premium yang mengandung protein hewani.</foods>
+        <color>Turkish Anggora umumnya memiliki bulu berwarna putih atau abu-abu, tetapi juga dapat ditemukan dalam berbagai warna lain.</color>
+        <habits>Anggora Turkish dikenal sebagai kucing yang aktif dan lincah, serta sangat cerdas dan memiliki insting berburu yang baik. Mereka suka bermain dan bisa menjadi kucing yang sangat interaktif dengan pemiliknya.</habits>
+    </pet>
+    <pet>
+        <image>imgPets/scottish-fold.jpeg</image>
+        <name>Cat</name>
+        <type>Scottish Fold</type>
+        <weight>3-6 kg</weight> 
+        <height>25-30 cm</height>
+        <foods> Scottish Fold membutuhkan makanan yang mengandung nutrisi lengkap dan seimbang, seperti makanan kucing yang mengandung protein hewani dan sayuran.</foods>
+        <color>Scottish Fold datang dalam berbagai warna, termasuk putih, hitam, coklat, biru, dan krem.</color>
+        <habits>Scottish Fold dikenal sebagai kucing yang tenang dan lembut, serta sangat setia dan dekat dengan pemiliknya. Mereka juga suka bermain dan memiliki tingkat energi yang cukup tinggi.</habits>
+    </pet>
+    <pet>
+        <image>imgPets/british-shorthair.jpeg</image>
+        <name>Cat</name>
+        <type>British Shorthair</type>
+        <weight>4-8 kg</weight> 
+        <height>30-35 cm</height>
+        <foods>Makanan kering atau basah berkualitas tinggi yang mengandung banyak protein seperti ayam, ikan, atau daging sapi.</foods>
+        <color>British Shorthair dikenal dengan warna biru kelabu, namun ada banyak varietas warna lain seperti hitam, coklat, krim, dan lainnya.</color>
+        <habits>British Shorthair dikenal sebagai kucing yang tenang dan stabil, serta sangat menyukai rutinitas dan kebiasaan. Mereka suka tidur dan santai, namun juga suka bermain dengan mainan kucing dan memanjat.</habits>
+    </pet>
+    <pet>
+        <image>imgPets/sphynx.jpeg</image>
+        <name>Cat</name>
+        <type>Sphynx</type>
+        <weight>3-6 kg</weight> 
+        <height>25-30 cm</height>
+        <foods>Sphynx membutuhkan makanan yang tinggi protein dan lemak, seperti makanan kucing yang mengandung daging segar atau ikan dan lemak sehat.</foods>
+        <color>Sphynx bisa datang dalam berbagai warna, termasuk hitam, putih, coklat, krem, dan lainnya.</color>
+        <habits>Sphynx dikenal sebagai kucing yang cerdas dan berenergi tinggi, serta sangat ramah dan mudah bergaul dengan orang lain. Mereka suka bermain dan bisa menjadi kucing yang sangat interaktif dengan pemiliknya. Sphynx juga membutuhkan perawatan khusus karena mereka tidak memiliki bulu yang melindungi kulit mereka dari suhu dingin dan panas.</habits>
+    </pet>
+    <!-- dog -->
+    <pet>
+        <image>imgPets/bulldog.jpeg</image>
+        <name>Dog</name>
+        <type>Bulldog</type>
+        <weight>18-23 kg</weight> <!-- in general -->
+        <height>31-40 cm</height> <!-- in general -->
+        <foods>Bulldog cenderung membutuhkan makanan yang kaya akan nutrisi dan rendah protein karena dapat mempengaruhi kesehatan mereka. Mereka cenderung menjadi gemuk, jadi penting untuk memberi mereka makanan yang tepat untuk menjaga berat badan mereka. Makanan berbahan dasar daging seperti daging sapi atau ayam dengan sedikit sayuran dan buah-buahan adalah pilihan yang baik.</foods>
+        <color>Bulldog umumnya berwarna putih, hitam, cokelat, dan kombinasi dari warna-warna tersebut.</color>
+        <habits>Bulldog termasuk anjing yang tenang dan mudah dijinakkan, serta memiliki sifat yang setia dan penuh kasih sayang terhadap pemiliknya</habits>
+    </pet>
+    <pet>
+        <image>imgPets/husky.jpeg</image>
+        <name>Dog</name>
+        <type>Husky</type>
+        <weight>20-27 kg</weight> 
+        <height>50-60 cm</height>
+        <foods>Husky membutuhkan makanan yang tinggi protein dan nutrisi karena mereka aktif dan energik. Mereka dikenal sebagai anjing yang sangat aktif, mandiri, dan suka berlari. Mereka juga sangat sosial dan membutuhkan perhatian dan interaksi dari manusia dan anjing lainnya.</foods>
+        <color>Husky biasanya memiliki bulu berwarna abu-abu atau hitam, dan mata berwarna biru atau cokelat.</color>
+        <habits>Husky dikenal sebagai anjing yang sangat aktif, mandiri, dan suka berlari. Mereka juga sangat sosial dan membutuhkan perhatian dan interaksi dari manusia dan anjing lainnya.</habits>
+    </pet>
+    <pet>
+        <image>imgPets/chihuahua.jpeg</image>
+        <name>Dog</name>
+        <type>Chihuahua</type>
+        <weight>1-3 kg</weight> 
+        <height>15-25 cm</height>
+        <foods>Chihuahua membutuhkan makanan yang seimbang dan kaya nutrisi karena mereka rentan terhadap obesitas dan masalah kesehatan lainnya. Mereka membutuhkan makanan dengan kandungan protein yang tinggi dan karbohidrat yang rendah. Makanan kering dengan bahan dasar daging sapi atau ayam dengan sedikit sayuran dan buah-buahan cocok untuk chihuahua.</foods>
+        <color>Chihuahua memiliki banyak varian warna seperti coklat, merah, hitam, dan putih.</color>
+        <habits>Chihuahua memiliki banyak varian warna seperti coklat, merah, hitam, dan putih.</habits>
+    </pet>
+    <pet>
+        <image>imgPets/rottweiler.jpeg</image>
+        <name>Dog</name>
+        <type>Rottweiler</type>
+        <weight>50-60 kg</weight> 
+        <height>56-69 cm</height>
+        <foods>Rottweiler membutuhkan makanan yang seimbang dan kaya nutrisi karena mereka aktif dan membutuhkan energi. Rottweiler membutuhkan makanan yang kaya akan protein dan lemak sehat. Makanan kering dengan bahan dasar daging sapi atau ayam, telur, dan ikan salmon cocok untuk rotweiler.</foods>
+        <color>Rottweiler biasanya berwarna hitam dengan tanda-tanda cokelat atau merah pada dada, kaki, dan wajah.</color>
+        <habits>Rottweiler dikenal sebagai anjing yang setia, berani, dan sangat melindungi terhadap keluarga dan rumahnya. Mereka membutuhkan latihan fisik dan mental yang cukup, serta sosialisasi yang baik sejak dini.</habits>
+    </pet>
+    <!-- rabbit -->
+    <pet>
+        <image>imgPets/dutch-rabbit.jpeg</image>
+        <name>Rabbit</name>
+        <type>Dutch Rabbit</type>
+        <weight>1.4-2.0 kg</weight> 
+        <height>35.5-39 cm</height>
+        <foods>Rumput, hay, sayuran segar seperti wortel dan selada, juga bisa diberi pelet kelinci khusus</foods>
+        <color>Tubuh putih dengan warna-warna hitam, biru, coklat, oranye, kelabu, atau abu-abu di bagian kepala, telinga, kaki, dan ekor</color>
+        <habits>Dutch rabbit adalah jenis kelinci yang aktif, ramah, dan mudah dilatih. Mereka biasanya sangat penasaran dan suka bermain.</habits>
+    </pet>
+    <pet>
+        <image>imgPets/himalayan-rabbit.jpeg</image>
+        <name>Rabbit</name>
+        <type>Himalayan Rabbit</type>
+        <weight>2.0-2.7 kg</weight> 
+        <height>40.5-45.5 cm</height>
+        <foods>Rumput, hay, sayuran segar seperti wortel dan bayam, juga bisa diberi pelet kelinci khusus</foods>
+        <color>Tubuh putih dengan warna biru kelam atau coklat di bagian telinga, hidung, ekor, dan kaki</color>
+        <habits>Himalayan rabbit adalah kelinci yang tenang dan lembut. Mereka dapat dengan mudah dilatih dan ditempatkan di dalam rumah.</habits>
+    </pet>
+    <pet>
+        <image>imgPets/flemish-giant-rabbit.jpeg</image>
+        <name>Rabbit</name>
+        <type>Flemish Giant Rabbit</type>
+        <weight>6.8-10.4 kg</weight> 
+        <height>50.8-71 cm</height>
+        <foods>Rumput, hay, sayuran segar seperti bayam dan kubis, juga bisa diberi pelet kelinci khusus</foods>
+        <color>biasanya abu-abu atau hitam, tetapi bisa juga ada yang berwarna putih, biru, atau fawn</color>
+        <habits>Flemish Giant rabbit adalah kelinci yang tenang, ramah, dan tidak terlalu aktif. Mereka membutuhkan ruang yang cukup besar untuk bergerak.</habits>
+    </pet>
+    <pet>
+        <image>imgPets/rex-rabbit.jpeg</image>
+        <name>Rabbit</name>
+        <type>Rex Rabbit</type>
+        <weight>2.7-4.1 kg</weight> 
+        <height>30.5-35.5 cm</height>
+        <foods>Rumput, hay, sayuran segar seperti wortel dan selada, juga bisa diberi pelet kelinci khusus</foods>
+        <color>Rambutnya sangat halus dan berbulu pendek, dan dapat berwarna hitam, biru, coklat, krem, oranye, kelabu, atau abu-abu kebiruan</color>
+        <habits>Rex rabbit adalah jenis kelinci yang tenang, ramah, dan sangat mudah dilatih. Mereka biasanya sangat aktif dan suka bermain.</habits>
+    </pet>
+    <!-- bird -->
+    <pet>
+        <image>imgPets/kakatua.jpeg</image>
+        <name>Bird</name>
+        <type>Burung Kakatua</type>
+        <weight>600 gr-1,2 kg</weight> 
+        <height>30-60 cm</height>
+        <foods>Biji-bijian, buah-buahan, sayuran, dan serangga kecil</foods>
+        <color>Umumnya putih dengan beberapa spesies yang memiliki warna pada bagian kepala dan sayap</color>
+        <habits>Burung kakatua dikenal sebagai burung yang cerdas, ramah, dan suka bermain. Mereka juga termasuk burung yang vokal dan sering bersuara.</habits>
+    </pet>
+    <pet>
+        <image>imgPets/merpati.jpeg</image>
+        <name>Bird</name>
+        <type>Burung Merpati</type>
+        <weight>200-600 gram</weight> 
+        <height>25-40 cm</height>
+        <foods>Biji-bijian dan beberapa jenis sayuran dan buah-buahan</foods>
+        <color>Abu-abu, putih, hitam, biru, coklat, merah, dan kombinasi warna-warna tersebut.</color>
+        <habits>Burung merpati dikenal sebagai burung yang tenang, mudah dijinakkan, dan mudah beradaptasi dengan lingkungan barunya. Mereka sering digunakan sebagai burung balap atau sebagai hewan peliharaan.</habits>
+    </pet>
+    <pet>
+        <image>imgPets/lovebird.jpeg</image>
+        <name>Bird</name>
+        <type>Burung Lovebird</type>
+        <weight>50 gram</weight> 
+        <height>13-17 cm</height>
+        <foods>Biji-bijian, buah-buahan, dan sayuran</foods>
+        <color>Biru, hijau, kuning, abuan, merah, atau kombinasi dari beberapa warna yang disebutkan</color>
+        <habits>Burung lovebird dikenal sebagai burung yang aktif, cerdas, dan sering bermain. Mereka suka berinteraksi dengan pemiliknya dan sering menunjukkan perilaku yang lucu.</habits>
+    </pet>
+    <pet>
+        <image>imgPets/parkit.jpeg</image>
+        <name>Bird</name>
+        <type>Burung Parkit</type>
+        <weight>80-120 gram</weight> 
+        <height>30 cm</height>
+        <foods>Biji-bijian, buah-buahan, sayuran, dan serangga kecil</foods>
+        <color>Hijau, biru, kuning, putih, biru abu-abu, abunya putih, abu-abu, dan kombinasi dari warna-warna yang disebutkan</color>
+        <habits>Burung parkit dikenal sebagai burung yang aktif, cerdas, dan suka bermain. Mereka juga termasuk burung yang vokal dan sering bersuara.</habits>
+    </pet>
+    <!-- hamster -->
+    <pet>
+        <image>imgPets/winter-white.jpeg</image>
+        <name>Hamster</name>
+        <type>Winter White</type>
+        <weight>25-50 gram</weight> 
+        <height>5-10 cm</height>
+        <foods>Biji-bijian, buah-buahan, sayuran, dan protein seperti cacing atau serangga kecil</foods>
+        <color>Ada yang putih, abu-abu, atau campuran keduanya</color>
+        <habits>Aktif di malam hari, suka bermain dan berlari di roda hamster</habits>
+    </pet>
+    <pet>
+        <image>imgPets/campbell.jpeg</image>
+        <name>Hamster</name>
+        <type>Campbell</type>
+        <weight>25-50 gram</weight> 
+        <height>5-10 cm</height>
+        <foods>biji-bijian, buah-buahan, sayuran, dan protein seperti cacing atau serangga kecil</foods>
+        <color>biasanya coklat atau abu-abu dengan garis-garis hitam atau putih</color>
+        <habits>aktif di malam hari, suka bermain dan berlari di roda hamster</habits>
+    </pet>
+    <pet>
+        <image>imgPets/roborovski.jpeg</image>
+        <name>Hamster</name>
+        <type>Roborovski</type>
+        <weight>20-25 gram</weight> 
+        <height>4-5 cm</height>
+        <foods>biji-bijian, buah-buahan, sayuran, dan protein seperti cacing atau serangga kecil</foods>
+        <color>biasanya coklat atau abu-abu dengan garis-garis putih di wajah dan perut</color>
+        <habits>sangat aktif dan cepat, suka bermain di atas pasir atau serbuk kayu</habits>
+    </pet>
+    <pet>
+        <image>imgPets/hybrid.jpeg</image>
+        <name>Hamster</name>
+        <type>Hybrid</type>
+        <weight>30-50 gram</weight> 
+        <height>5-10 cm</height>
+        <foods>biji-bijian, buah-buahan, sayuran, dan protein seperti cacing atau serangga kecil</foods>
+        <color>bervariasi antara putih, abu-abu, dan coklat</color>
+        <habits>aktif di malam hari, suka bermain dan berlari di roda hamster</habits>
+    </pet>
+</pets>
